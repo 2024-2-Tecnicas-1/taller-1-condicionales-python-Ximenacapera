@@ -12,7 +12,7 @@ def evaluar(peso, estatura, edad):
                 condicion = "alto"
             elif imc < 22.0:
                 condicion = "medio"
-    return condicion;
+    return condicion
 
 if __name__ == '__main__':
     print("Peso:", end="")

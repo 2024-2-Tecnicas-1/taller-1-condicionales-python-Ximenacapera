@@ -11,9 +11,7 @@ def evaluar(dividendo, divisor):
             "Cociente: " + str(cociente) + "\n" \
             "Residuo: " + str(residuo)
     return respuesta
-    cociente = 0
-    residuo = 0
-    respuesta = "La división es exacta. \n" \
+
 
 if __name__ == '__main__':
     print("Dividendo:", end="")

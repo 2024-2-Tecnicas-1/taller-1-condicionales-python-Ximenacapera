@@ -5,7 +5,7 @@ def evaluar(anno):
      else:
         return"Año no bisiesto"
      
-     
+
 if __name__ == '__main__':
     print("Año:", end="")
     anno = int(input())

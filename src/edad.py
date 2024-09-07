@@ -9,7 +9,7 @@ def evaluar(dia, mes, anno):
     if (mes_actual, dia_actual) < (mes, dia):
         edad -= 1
     return "Usted tiene " + str (edad) + " años"
-    return "";
+
 
 if __name__ == '__main__':
     print("Ingrese su fecha de nacimiento")
