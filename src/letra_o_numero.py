@@ -8,7 +8,7 @@ def evaluar(caracter):
     elif 48 <= ascci <= 57:
         return "Es número"
     else:
-        return "No es letra ni número";
+        return "No es letra ni número"
 
 if __name__ == '__main__':
     print("Caracter:", end='')
